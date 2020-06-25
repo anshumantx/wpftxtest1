@@ -1,0 +1,17 @@
+C:\Users\anshuman.singh\source\repos\WpftxApp1\WpfApp1\bin\Release\netcoreapp3.1\WpfApp1.exe
+C:\Users\anshuman.singh\source\repos\WpftxApp1\WpfApp1\bin\Release\netcoreapp3.1\WpfApp1.deps.json
+C:\Users\anshuman.singh\source\repos\WpftxApp1\WpfApp1\bin\Release\netcoreapp3.1\WpfApp1.runtimeconfig.json
+C:\Users\anshuman.singh\source\repos\WpftxApp1\WpfApp1\bin\Release\netcoreapp3.1\WpfApp1.runtimeconfig.dev.json
+C:\Users\anshuman.singh\source\repos\WpftxApp1\WpfApp1\bin\Release\netcoreapp3.1\WpfApp1.dll
+C:\Users\anshuman.singh\source\repos\WpftxApp1\WpfApp1\bin\Release\netcoreapp3.1\WpfApp1.pdb
+C:\Users\anshuman.singh\source\repos\WpftxApp1\WpfApp1\obj\Release\netcoreapp3.1\WpfApp1.csprojAssemblyReference.cache
+C:\Users\anshuman.singh\source\repos\WpftxApp1\WpfApp1\obj\Release\netcoreapp3.1\txtest.g.cs
+C:\Users\anshuman.singh\source\repos\WpftxApp1\WpfApp1\obj\Release\netcoreapp3.1\App.g.cs
+C:\Users\anshuman.singh\source\repos\WpftxApp1\WpfApp1\obj\Release\netcoreapp3.1\WpfApp1_MarkupCompile.cache
+C:\Users\anshuman.singh\source\repos\WpftxApp1\WpfApp1\obj\Release\netcoreapp3.1\WpfApp1_MarkupCompile.lref
+C:\Users\anshuman.singh\source\repos\WpftxApp1\WpfApp1\obj\Release\netcoreapp3.1\txtest.baml
+C:\Users\anshuman.singh\source\repos\WpftxApp1\WpfApp1\obj\Release\netcoreapp3.1\WpfApp1.g.resources
+C:\Users\anshuman.singh\source\repos\WpftxApp1\WpfApp1\obj\Release\netcoreapp3.1\WpfApp1.AssemblyInfoInputs.cache
+C:\Users\anshuman.singh\source\repos\WpftxApp1\WpfApp1\obj\Release\netcoreapp3.1\WpfApp1.AssemblyInfo.cs
+C:\Users\anshuman.singh\source\repos\WpftxApp1\WpfApp1\obj\Release\netcoreapp3.1\WpfApp1.dll
+C:\Users\anshuman.singh\source\repos\WpftxApp1\WpfApp1\obj\Release\netcoreapp3.1\WpfApp1.pdb
