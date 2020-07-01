@@ -2,6 +2,8 @@
 
 important commands
 
+`winrm e winrm/config/listener`
+
 `New-SelfSignedCertificate -DnsName WhateverTargetMachineAddressYouNeed -CertStoreLocation Cert:\LocalMachine\My`
 
 
