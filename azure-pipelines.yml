@@ -69,15 +69,26 @@ stages:
       runOnce:
           deploy:
             steps:
-            - task: AzureFileCopy@4
+            - task: CopyFiles@2
               inputs:
-                SourcePath: '$(Pipeline.Workspace)/windeskapp'
-                azureSubscription: 'Visual Studio Enterprise – MPN (da791a4e-3933-4213-a43e-f94f3e2187c3)'
-                Destination: 'AzureVMs'
-                storage: 'txwinappsdeploymentgroup'
-                resourceGroup: 'TXWINAPPSDEPLOYMENTGROUP'
-                MachineNames: 'WinApps'
-                vmsAdminUserName: 'Anshuman'
-                vmsAdminPassword: '$(AzureWinVMPassword)'
-                TargetPath: 'D:\winappdepfolder'
-                enableCopyPrerequisites: true
+                SourceFolder: '$(Pipeline.Workspace)/windeskapp'
+                Contents: '**'
+                TargetFolder: 'D:\winappdepfolder'
+                OverWrite: true
+
+
+                
+# - task: AzureFileCopy@4
+#   inputs:
+#     SourcePath: '$(Pipeline.Workspace)/windeskapp'
+#     azureSubscription: 'Visual Studio Enterprise – MPN (da791a4e-3933-4213-a43e-f94f3e2187c3)'
+#     Destination: 'AzureVMs'
+#     storage: 'txwinappsdeploymentgroup'
+#     resourceGroup: 'TXWINAPPSDEPLOYMENTGROUP'
+#     MachineNames: 'WinApps'
+#     vmsAdminUserName: 'Anshuman'
+#     vmsAdminPassword: '$(AzureWinVMPassword)'
+#     TargetPath: 'D:\winappdepfolder'
+#     enableCopyPrerequisites: true
+
+
