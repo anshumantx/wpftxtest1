@@ -71,7 +71,7 @@ stages:
             steps:
             - task: CopyFiles@2
               inputs:
-                SourceFolder: '$(Pipeline.Workspace)/windeskapp'
+                SourceFolder: '$(Pipeline.Workspace)/windeskapp/a/WpfApp1/bin/Release/netcoreapp3.1'
                 Contents: '**'
                 TargetFolder: 'D:\winappdepfolder'
                 OverWrite: true
