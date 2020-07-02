@@ -68,4 +68,11 @@ stages:
       runOnce:
           deploy:
             steps:
-            - script: echo Hello world
+            - task: DownloadPipelineArtifact@2
+              inputs:
+                buildType: 'specific'
+                project: 'ab31445f-35fa-4f91-9afc-5968e3a8a4a1'
+                definition: '20'
+                buildVersionToDownload: 'latest'
+                artifactName: 'WinApps.exe'
+                targetPath: '$(Pipeline.Workspace)'
